@@ -1,53 +1,53 @@
 {
   "squares": [
-    { "name": "media",
+    { "name": "school",
       "color": "red",
       "links": [
-        { "name": "Spotify", "url": "https://open.spotify.com/" },
-        { "name": "YoutubeMusic", "url": "https://music.youtube.com/" },
-        { "name": "Netflix", "url": "https://netflix.com" },
-        { "name": "Youtube", "url": "https://youtube.com" }
+        { "name": "Gmail", "url": "http://www.gmail.com/" },
+        { "name": "MyLC", "url": "https://www.secure.mylcsolution.com/student/?versionNotify=0" },
+        { "name": "IC", "url": "https://www.campus.kmsd.edu/campus/portal/students/kettlemoraine.jsp" },
+        { "name": "Grammarly", "url": "https://www.app.grammarly.com/" }
       ]
     },
-    { "name": "work",
+    { "name": "fun",
+      "links": [
+        { "name": "D", "url": "https://www.discord.com/" },
+        { "name": "RB", "url": "https://www.roblox.com/" },
+        { "name": "A14", "url": "https://www.roblox.com/games/651474220/Area-14" }, 
+        { "name": "TGC", "url": "https://www.roblox.com/games/885450884/The-Grand-Crossing" }
+      ]
+    },
+    { "name": "coding",
       "color": "#26A69A",
       "links": [
-        { "name": "Github", "url": "https://github.com" },
-        { "name": "Heroku", "url": "http://heroku.com/" },
-        { "name": "localhost", "url": "http://localhost:8000/" }
-      ]
-    },
-    { "name": "social",
-      "links": [
-        { "name": "Reddit", "url": "https://reddit.com" },
-        { "name": "Unixporn Love", "url": "https://deepjyoti30.github.io/unixporn-love/" },
-        { "name": "r/unixporn", "url": "https://www.reddit.com/r/unixporn/" },
-        { "name": "r/mk", "url": "https://www.reddit.com/r/MechanicalKeyboards/" }
+        { "name": "Github", "url": "https://www.github.com" },
+        { "name": "Heroku", "url": "http://www.heroku.com/" },
+        { "name": "Extensions", "url": "chrome://extensions/" }
       ]
     },
     {
-      "name": "Others",
+      "name": "misc",
       "links": [
-        {"name": "Material Colors", "url": "http://materialuicolors.co/"},
-        {"name": "Gmail", "url": "http://gmail.com/"},
-        {"name": "neo4j Local", "url": "http://localhost:7474/"},
-        {"name": "rarbg", "url": "http://rarbg.to"}
+        {"name": "YouTube", "url": "https://www.youtube.com/"},
+        {"name": "c rep", "url": "https://docs.google.com/document/u/1/d/1wQ6ocVbLrUZw7k263zsilCmCm6TxwrpUkzMVDd8go3g/copy"},
+        {"name": "c script", "url": "https://docs.google.com/document/d/1VaRjBNZiF7lARYNUzFlYl-kBWQfLLEpArBKawyv17xw/edit"},
+        {"name": "c ideas", "url": "https://docs.google.com/document/d/1oLat6tw7pkW-eNQBZ5JM9Vxh2lFbZhnPhdQCJyzmuaQ/edit"}
       ]
     }
   ],
-  "searchEngine":"DuckDuckGo",
-  "user": "Deepjyoti",
+  "searchEngine":"Google",
+  "user": "Timmy",
   "disableMessage": false,
   "disableDate": false,
   "disableSearchBar": false,
-  "disable24Hour": false,
+  "disable24Hour": true,
   "disableWeather": true,
-  "timeZone": "America/Los_Angeles",
+  "timeZone": "America/Chicago",
   "weatherConf": {
-    "location": "Pune India",
+    "location": "N/A",
     "unit": "cel"
   },
-  "settingsIcon": false,
+  "settingsIcon": true,
   "style": {
     "backgroundColor": "#212121",
     "messageColor": "#fff",
