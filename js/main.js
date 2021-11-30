@@ -101,7 +101,7 @@ function buildMsg() {
      * Following is how the message would be decided.
      * 0 - 5:59 : It's too late, take some sleep
      * 6 - 8:59 : You're up early
-     * 9 - 11:59 : Have a good day ahead
+     * 9 - 11:59 : Have a good day
      * 12 - 16:59 : Good Afternoon
      * 17 - 19:59 : Good Evening
      * 20 - 23:59 : It's time to wrap up for the day
@@ -116,7 +116,7 @@ function buildMsg() {
     if (inRange(currentTime, 6, 8.59))
         return "You're up early"
     if (inRange(currentTime, 9, 11.59))
-        return "Have a good day ahead"
+        return "Have a good day"
     if (inRange(currentTime, 12, 16.59))
         return "Good Afternoon"
     if (inRange(currentTime, 17, 19.59))
