@@ -24,6 +24,7 @@ bgClassContainer = [
     "work",
     "social",
     "others",
+    "school",
     "funky",
     "purple",
     "upvoty",
